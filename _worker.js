@@ -200,7 +200,7 @@ export default {
 
                     default:
                         // return new Response('Not found', { status: 404 });
-                        url.hostname = 'cdn.33456789.xyz';
+                        url.hostname = 'bing.33456789.xyz';
                         url.protocol = 'https:';
                         request = new Request(url, request);
                         return await fetch(request);
